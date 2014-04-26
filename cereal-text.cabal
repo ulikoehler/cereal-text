@@ -7,6 +7,8 @@ synopsis:            Data.Text instances for the cereal serialization library
 description:         Data.Text instances for the cereal serialization library.
                      .
                      Provides instances for Text and lazy Text.
+                     Uses UTF-8 encoding for serialization.
+                     .
                      Use
                      @import Data.Serialize.Text ()@
                      to import instances.

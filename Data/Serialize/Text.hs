@@ -7,10 +7,10 @@ module Data.Serialize.Text () where
 
 import qualified Data.Text as T
 import qualified Data.Text.Lazy as LT
-import Data.Serialize
-import Control.Applicative ((<$>))
 import qualified Data.Text.Encoding as TE
 import qualified Data.Text.Lazy.Encoding as TLE
+import Data.Serialize
+import Control.Applicative ((<$>))
 
 instance Serialize T.Text where
     put = put . TE.encodeUtf8
