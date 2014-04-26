@@ -18,4 +18,4 @@ instance Serialize T.Text where
 
 instance Serialize LT.Text where
     put = put . TLE.encodeUtf8
-    get = TLE.decodeUtf8 <$> get 
+    get = TLE.decodeUtf8 <$> get
