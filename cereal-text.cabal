@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                cereal-text
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Data.Text instances for the cereal serialization library
 description:         Data.Text instances for the cereal serialization library.
                      .
